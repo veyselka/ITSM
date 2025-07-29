@@ -1,0 +1,376 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Havsan NovaDesk API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/DestekKayitlariKontrolcusu": {
+      "get": {
+        "tags": [
+          "DestekKayitlariKontrolcusu"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DestekKaydi"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DestekKaydi"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DestekKaydi"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DestekKayitlariKontrolcusu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DestekKaydi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DestekKaydi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DestekKaydi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DestekKaydi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DestekKaydi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DestekKaydi"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DestekKayitlariKontrolcusu/{id}": {
+      "get": {
+        "tags": [
+          "DestekKayitlariKontrolcusu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DestekKaydi"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DestekKaydi"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DestekKaydi"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DestekKayitlariKontrolcusu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DestekKaydi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DestekKaydi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DestekKaydi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DestekKayitlariKontrolcusu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "Havsan.NovaDesk.API"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/KimlikDogrulamaKontrolcusu/Kayit": {
+      "post": {
+        "tags": [
+          "KimlikDogrulamaKontrolcusu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KayitModeli"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KayitModeli"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KayitModeli"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/KimlikDogrulamaKontrolcusu/Giris": {
+      "post": {
+        "tags": [
+          "KimlikDogrulamaKontrolcusu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisModeli"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisModeli"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisModeli"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DestekKaydi": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "konu": {
+            "type": "string",
+            "nullable": true
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          },
+          "olusturulmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "durum": {
+            "type": "string",
+            "nullable": true
+          },
+          "oncelik": {
+            "type": "string",
+            "nullable": true
+          },
+          "kategori": {
+            "type": "string",
+            "nullable": true
+          },
+          "atananKisi": {
+            "type": "string",
+            "nullable": true
+          },
+          "olusturanKullaniciId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GirisModeli": {
+        "required": [
+          "kullaniciAdi",
+          "sifre"
+        ],
+        "type": "object",
+        "properties": {
+          "kullaniciAdi": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "sifre": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KayitModeli": {
+        "required": [
+          "eposta",
+          "kullaniciAdi",
+          "sifre"
+        ],
+        "type": "object",
+        "properties": {
+          "kullaniciAdi": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "eposta": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "sifre": {
+            "minLength": 4,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
