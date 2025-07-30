@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EIUenfM66yA=",
+  "dgSpecHash": "e56GcgtYif8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj",
+  "projectFilePath": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victus\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\victus\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

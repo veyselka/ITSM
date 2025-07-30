@@ -132,37 +132,50 @@ app.MapControllers();
 
 using (var scope = app.Services.CreateScope())
 {
-    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-    // Rollarý kontrol et ve oluþtur
-    if (!await roleManager.RoleExistsAsync(KullaniciRolleri.Admin))
+    
+    const string adminRoleName = "Admin"; 
+    const string destekPersoneliRoleName = "DestekPersoneli"; 
+
+    if (!await roleManager.RoleExistsAsync(adminRoleName))
     {
-        await roleManager.CreateAsync(new IdentityRole(KullaniciRolleri.Admin));
+        await roleManager.CreateAsync(new IdentityRole(adminRoleName));
     }
-    if (!await roleManager.RoleExistsAsync(KullaniciRolleri.DestekPersoneli))
+    if (!await roleManager.RoleExistsAsync(destekPersoneliRoleName))
     {
-        await roleManager.CreateAsync(new IdentityRole(KullaniciRolleri.DestekPersoneli));
-    }
-    if (!await roleManager.RoleExistsAsync(KullaniciRolleri.SonKullanici))
-    {
-        await roleManager.CreateAsync(new IdentityRole(KullaniciRolleri.SonKullanici));
+        await roleManager.CreateAsync(new IdentityRole(destekPersoneliRoleName));
     }
 
     
-    var adminKullanici = await userManager.FindByNameAsync("admin");
-    if (adminKullanici == null)
+    var adminUser = await userManager.FindByNameAsync("admin");
+    if (adminUser == null)
     {
-        adminKullanici = new IdentityUser
+        adminUser = new IdentityUser { UserName = "admin", Email = "admin@novadesk.com" };
+        var result = await userManager.CreateAsync(adminUser, "AdminPass123!"); 
+        if (result.Succeeded)
         {
-            UserName = "admin",
-            Email = "admin@novadesk.com",
-            EmailConfirmed = true 
-        };
-        await userManager.CreateAsync(adminKullanici, "AdminPass123!"); 
+            await userManager.AddToRoleAsync(adminUser, adminRoleName); 
+        }
+    }
+    else 
+    {
+        if (!await userManager.IsInRoleAsync(adminUser, adminRoleName))
+        {
+            await userManager.AddToRoleAsync(adminUser, adminRoleName);
+        }
+    }
 
+    
+    var testUser = await userManager.FindByNameAsync("testuser"); 
+    if (testUser != null)
+    {
+        if (!await userManager.IsInRoleAsync(testUser, destekPersoneliRoleName))
+        {
+            await userManager.AddToRoleAsync(testUser, destekPersoneliRoleName);
+        }
         
-        await userManager.AddToRoleAsync(adminKullanici, KullaniciRolleri.Admin);
     }
 }
 

@@ -1,29 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\",
+  "WorkspaceRootPath": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\havsan.novadesk\\havsan.novadesk.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\havsan.novadesk\\havsan.novadesk.api\\controllers\\destekkayitlarikontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\controllers\\destekkayitlarikontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\havsan.novadesk\\havsan.novadesk.api\\models\\kullanicirolleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\models\\kullanicirolleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\models\\kullanicirolleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\havsan.novadesk\\havsan.novadesk.api\\models\\dtos\\girismodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\models\\dtos\\girismodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\models\\destekkaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\models\\destekkaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\havsan.novadesk\\havsan.novadesk.api\\models\\dtos\\kayitmodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\migrations\\20250728104631_ilkolusturma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\migrations\\20250728104631_ilkolusturma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\data\\uygulamaveribaglami.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\data\\uygulamaveribaglami.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\controllers\\kimlikdogrulamakontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\controllers\\kimlikdogrulamakontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\controllers\\destekkayitlarikontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\controllers\\destekkayitlarikontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\models\\dtos\\kayitmodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\models\\dtos\\kayitmodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\havsan.novadesk\\havsan.novadesk.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\models\\dtos\\girismodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\models\\dtos\\girismodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|c:\\users\\victus\\desktop\\havsan_mobil\\itsm\\havsan.novadesk\\havsan.novadesk.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1C96DC8D-EF7B-4925-99C7-2DD1927FD398}|Havsan.NovaDesk.API\\Havsan.NovaDesk.API.csproj|solutionrelative:havsan.novadesk.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -34,27 +54,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DestekKayitlariKontrolcusu.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
-              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
-              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
-              "RelativeToolTip": "Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "20250728104631_IlkOlusturma.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Migrations\\20250728104631_IlkOlusturma.cs",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Migrations\\20250728104631_IlkOlusturma.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Migrations\\20250728104631_IlkOlusturma.cs",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Migrations\\20250728104631_IlkOlusturma.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T11:44:18.857Z"
+              "WhenOpened": "2025-07-30T06:28:47.228Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UygulamaVeriBaglami.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Data\\UygulamaVeriBaglami.cs",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Data\\UygulamaVeriBaglami.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Data\\UygulamaVeriBaglami.cs",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Data\\UygulamaVeriBaglami.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:28:31.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KimlikDogrulamaKontrolcusu.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Controllers\\KimlikDogrulamaKontrolcusu.cs",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Controllers\\KimlikDogrulamaKontrolcusu.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Controllers\\KimlikDogrulamaKontrolcusu.cs",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Controllers\\KimlikDogrulamaKontrolcusu.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:28:01.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestekKaydi.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DestekKaydi.cs",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Models\\DestekKaydi.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DestekKaydi.cs",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Models\\DestekKaydi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T12:36:21.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KullaniciRolleri.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:35:27.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Program.cs",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Program.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Program.cs",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Program.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T10:40:02.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DestekKayitlariKontrolcusu.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Controllers\\DestekKayitlariKontrolcusu.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T11:44:18.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Havsan.NovaDesk.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T06:27:52.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "KayitModeli.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\KayitModeli.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\KayitModeli.cs",
               "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Models\\DTOs\\KayitModeli.cs",
-              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\KayitModeli.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\KayitModeli.cs",
               "RelativeToolTip": "Havsan.NovaDesk.API\\Models\\DTOs\\KayitModeli.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,11 +178,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "GirisModeli.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\GirisModeli.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\GirisModeli.cs",
               "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Models\\DTOs\\GirisModeli.cs",
-              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\GirisModeli.cs",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\DTOs\\GirisModeli.cs",
               "RelativeToolTip": "Havsan.NovaDesk.API\\Models\\DTOs\\GirisModeli.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,40 +190,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\appsettings.json",
               "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\ITSM\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\appsettings.json",
               "RelativeToolTip": "Havsan.NovaDesk.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-28T11:16:04.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Program.cs",
-              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Program.cs",
-              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Program.cs",
-              "RelativeToolTip": "Havsan.NovaDesk.API\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAH0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T10:40:02.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KullaniciRolleri.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
-              "RelativeDocumentMoniker": "Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
-              "ToolTip": "C:\\Users\\victus\\Desktop\\Havsan_Mobil\\Havsan.NovaDesk\\Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
-              "RelativeToolTip": "Havsan.NovaDesk.API\\Models\\KullaniciRolleri.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:35:27.05Z"
             }
           ]
         }

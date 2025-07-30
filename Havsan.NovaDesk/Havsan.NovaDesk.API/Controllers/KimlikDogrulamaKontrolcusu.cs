@@ -54,7 +54,7 @@ namespace Havsan.NovaDesk.API.Controllers
 
                 if (!roleResult.Succeeded)
                 {
-                    // Rol ataması başarısız olursa (nadiren olur)
+                    
                     return StatusCode(StatusCodes.Status500InternalServerError, new { Message = "Kullanıcı oluşturuldu ancak varsayılan rol atanamadı.", Errors = roleResult.Errors.Select(e => e.Description) });
                 }
 
@@ -93,7 +93,7 @@ namespace Havsan.NovaDesk.API.Controllers
                 var authClaims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, kullanici.UserName ?? string.Empty),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // Benzersiz token ID'si
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), 
                 };
 
                 foreach (var kullaniciRol in kullaniciRolleri)
@@ -101,26 +101,25 @@ namespace Havsan.NovaDesk.API.Controllers
                     authClaims.Add(new Claim(ClaimTypes.Role, kullaniciRol));
                 }
 
-                // JWT Secret, Issuer ve Audience değerlerini appsettings.json'dan al
-                var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]!)); // Uyarıyı giderdik!
-
+                
+                var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]!)); 
                 var token = new JwtSecurityToken(
                     issuer: _configuration["JWT:ValidIssuer"],
                     audience: _configuration["JWT:ValidAudience"],
-                    expires: DateTime.Now.AddHours(3), // Token 3 saat sonra geçerliliğini yitirecek
+                    expires: DateTime.Now.AddHours(3), 
                     claims: authClaims,
                     signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
                 );
 
-                // Token'ı ve geçerlilik süresini döndür
+                
                 return Ok(new
                 {
                     Token = new JwtSecurityTokenHandler().WriteToken(token),
-                    GecerlilikSuresi = token.ValidTo // Token'ın geçerli olacağı tarih ve saat
+                    GecerlilikSuresi = token.ValidTo 
                 });
             }
 
-            // Giriş başarısızsa
+            
             return Unauthorized(new { Message = "Geçersiz kullanıcı adı veya şifre." });
         }
     }
